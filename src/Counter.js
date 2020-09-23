@@ -13,7 +13,7 @@ class Counter extends React.Component{
         });
     }
     render(){
-    return(<div><h1>{this.state.count}</h1><button onClick={()=>this.incrementer}>Increment!</button></div>);
+    return(<div><h1>{this.state.count}</h1><button onClick={()=>this.incrementer()}>Increment!</button></div>);
     }
 }
 
